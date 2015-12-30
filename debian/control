@@ -1,0 +1,15 @@
+Source: wasta-redmond-xenial
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/wasta-linux/wasta-redmond-xenial
+
+Package: wasta-redmond-xenial
+Architecture: all
+Depends: gksu, wasta-core-xenial, ${shlibs:Depends}, ${misc:Depends}
+Conflicts: wasta-redmond-wily
+Description: Wasta-Redmond: Allow setting Wasta-Linux to Redmond (MS) Defaults
+ The Wasta-Redmond app will TOGGLE the system default schemas between
+ Wasta-Linux defaults and Wasta-Redmond (MS) defaults.

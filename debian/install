@@ -1,0 +1,6 @@
+install-files/applications                 usr/share
+install-files/bin                          usr
+install-files/extensions                   usr/share/gnome-shell
+install-files/extensions/*/schemas/*.gschema.xml  usr/share/glib-2.0/schemas
+install-files/org.wasta-redmond-pkexec.policy  usr/share/polkit-1/actions
+wasta-redmond                              usr/share
