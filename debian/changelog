@@ -1,3 +1,9 @@
+wasta-redmond-xenial (0.1.1) xenial; urgency=medium
+
+  * install-files/extensions/MoveClock: replaced with Gnome-Shell 3.18 version
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Wed, 30 Dec 2015 08:35:00 +0300
+
 wasta-redmond-xenial (0.1.0) xenial; urgency=medium
 
   * initial script 
